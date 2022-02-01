@@ -1,0 +1,76 @@
+.section-4{
+    background-color:rosybrown;
+    height:1300px;
+}
+
+.contact-header{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 150px;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+    text-shadow:5px 5px white;
+}
+
+.contact-form{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    color:black;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+}
+
+input{
+    width:900px;
+    height:100px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Amatic SC", sans-serif;
+    outline: none;
+    margin: 10px;
+    font-weight:bold;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+textarea{
+    width:900px;
+    height:280px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Amatic SC", sans-serif;
+    outline: none;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.btn-4{
+    position: absolute;
+    top:90%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    width:200px;
+    font-size:100px;
+    color: white;
+    text-decoration: none;
+    width:300px;
+    background:black;
+    text-align: center;
+    opacity: 90%;
+}
+
+.btn-4:hover{
+    opacity:100%;
+}
+
+.btn-4:active{
+    box-shadow: 1px 1px 11px black;
+}

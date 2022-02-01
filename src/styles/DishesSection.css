@@ -1,0 +1,46 @@
+.section-2{
+    background-color: lightblue;
+    height:1000px;
+}
+
+section{
+    width:100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+.food-header{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 150px;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+    text-shadow:5px 5px white;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows:180%;
+    grid-gap: 50px;
+    align-items:end;
+}
+
+.grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.grid > article > h3{
+    top:20%;
+    left: 70%;
+    color:black;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 150px;
+    text-shadow:5px 5px white;
+}

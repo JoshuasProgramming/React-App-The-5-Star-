@@ -1,0 +1,53 @@
+section{
+    width:100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+.top{
+    background-image: url(../images/image1.jpg);
+    background-size:cover;
+    min-height: 50%;
+}
+
+.let-me{
+    color:white;
+    text-decoration: none;
+}
+
+.home-header{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 150px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    margin:0px 30px;
+    text-shadow:5px 5px white;
+}
+
+button{
+    position: absolute;
+    top:85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 45px;
+    font-family: "Amatic SC", sans-serif;
+    background:black;
+    padding:15px;
+    border: 0px solid white;
+    opacity: 95%;
+}
+
+button:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: 1px 1px 11px black;
+}

@@ -1,0 +1,73 @@
+.section-3{
+    background-color:yellowgreen;
+    height:1200px;
+}
+
+.location-header{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+    text-shadow:5px 5px white;
+}
+
+.location-text{
+    position: absolute;
+    top:35%;
+    left: 40%;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+}
+
+.opening-time-header{
+    position: absolute;
+    top:70%;
+    left: 35%;
+    color:black;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+    letter-spacing: 10px;
+}
+
+.mon-fri{
+    position: absolute;
+    top:78%;
+    left: 40%;
+    color:black;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+}
+
+.saturday{
+    position: absolute;
+    top:86%;
+    left: 40%;
+    color:black;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+}
+
+.sunday{
+    position: absolute;
+    top:94%;
+    left: 40%;
+    color:black;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+}

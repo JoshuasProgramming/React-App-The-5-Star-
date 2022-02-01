@@ -1,0 +1,26 @@
+.section-1{
+    background-color: lightslategray;
+}
+
+.about-header{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    margin:0px 30px;
+    text-shadow:5px 5px white;
+}
+
+.about-header-text{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    color:black;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+}

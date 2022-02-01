@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
+/* Reset page in CSS */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: 100%;
+    font-family: "Amatic SC", sans-serif;
+}
+
+div, section, span, ul, li, a{
+    box-sizing: border-box;
+}
+
+/* Header content => Includes Navigation bar*/
+
+.header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+    color:whitesmoke;
+    box-shadow: 1px 1px 11px black;
+}
+
+.navbar{
+    text-align:right;
+}
+
+.navbar li{
+    list-style: none;
+    display:inline-block;
+    width:110px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.navbar li a:hover{
+    color:yellow;
+    transition:2s;
+    cursor: pointer;
+}
+
+p{
+    font-size:40px;
+}
+
+.let-me{
+    color:white;
+    text-decoration: none;
+}
+
+span{
+    color:yellow
+}
